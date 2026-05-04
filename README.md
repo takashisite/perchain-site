@@ -2,7 +2,7 @@
 
 Static site for Perchain product, support, and privacy pages.
 
-Planned production URLs:
+Production URLs:
 
 - `https://perchain.mizuno.app/`
 - `https://perchain.mizuno.app/support/`
@@ -22,11 +22,22 @@ Then open:
 
 ## Cloudflare Pages
 
+- Project: `perchain-site`
 - Framework preset: `None`
 - Build command: none
 - Build output directory: `/`
 - Custom domain: `perchain.mizuno.app`
 - Support contact: `perchain@mizuno.app`
+
+## Deploy
+
+This project currently uses Wrangler direct deploy:
+
+```bash
+npx wrangler pages deploy . --project-name perchain-site --branch main
+```
+
+The Cloudflare Pages project is not currently connected to a Git provider.
 
 ## Cloudflare Email Routing
 
