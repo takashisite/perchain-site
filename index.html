@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perchain | Tax, fee, shipping, and FX calculator</title>
+  <meta name="description" content="Perchain is an iPhone app for chaining tax, fees, shipping, discounts, and user-entered exchange rates into one clear money calculation.">
+  <meta property="og:title" content="Perchain">
+  <meta property="og:description" content="Connect tax, fee, shipping, discount, and FX steps into one clear money calculation.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://perchain.mizuno.app/">
+  <meta property="og:site_name" content="Perchain">
+  <meta property="og:image" content="https://perchain.mizuno.app/assets/app-icon.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Perchain">
+  <meta name="twitter:description" content="Tax, fee, shipping, and FX steps in one clear chain.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="wordmark" href="/">
+          <span class="wordmark__name">Perchain</span>
+          <span class="wordmark__meta">iPhone / money chain / manual rates</span>
+        </a>
+        <div class="topnav">
+          <a href="/support/">Support</a>
+          <a href="/privacy/">Privacy</a>
+          <div class="lang-switch" aria-label="Language">
+            <button type="button" data-lang-button="en" aria-pressed="true">EN</button>
+            <button type="button" data-lang-button="ja" aria-pressed="false">JP</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__copy" data-panel>
+          <span class="eyebrow">Perchain for iPhone</span>
+          <h1 data-lang="en">See the real total behind each price.</h1>
+          <h1 data-lang="ja" hidden>金額の変化を、順番に見える形へ。</h1>
+          <p data-lang="en">Perchain connects tax, fees, shipping, discounts, and user-entered exchange rates into one editable chain. Build the calculation once, then adjust each step without losing the path.</p>
+          <p data-lang="ja" hidden>Perchain は、税、手数料、送料、割引、ユーザーが入力した為替レートを順番につなげて計算するアプリです。一度作った計算の流れを見失わず、必要なステップだけを調整できます。</p>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="/support/">Open support</a>
+            <a class="btn btn--secondary" href="/privacy/">Read privacy policy</a>
+          </div>
+        </div>
+
+        <div class="hero__visual" data-panel>
+          <div class="poster poster--perchain" aria-label="Example Perchain calculation">
+            <img class="app-icon" src="/assets/app-icon.png" alt="Perchain app icon">
+            <div class="poster__meta">
+              <span>Travel purchase</span>
+              <span>Manual FX</span>
+            </div>
+            <div class="poster__stack">
+              <div class="poster__line"><span>Item</span><strong>$120.00</strong></div>
+              <div class="poster__line"><span>Sales tax</span><strong>+8.0%</strong></div>
+              <div class="poster__line"><span>Card fee</span><strong>+3.0%</strong></div>
+              <div class="poster__line"><span>Shipping</span><strong>+¥1,500</strong></div>
+              <div class="poster__line"><span>USD → JPY</span><strong>1 USD = ¥160</strong></div>
+            </div>
+            <div class="poster__glyph">¥</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--split">
+        <div class="section__intro" data-panel>
+          <span class="section__kicker">Core idea</span>
+          <h2 class="section__title" data-lang="en">A calculator for money that changes in steps.</h2>
+          <h2 class="section__title" data-lang="ja" hidden>段階的に変わる金額のための計算機。</h2>
+          <p class="section__lead" data-lang="en">A regular calculator gives you the answer but not the route. Perchain keeps the route visible, so taxes, fees, shipping, discounts, and conversion rates stay understandable.</p>
+          <p class="section__lead" data-lang="ja" hidden>普通の計算機は答えだけを出します。Perchain は計算の道筋を残すので、税、手数料、送料、割引、為替換算のつながりを見ながら調整できます。</p>
+        </div>
+        <div class="feature-rail" data-panel>
+          <div class="feature">
+            <h3 data-lang="en">Built for ordered calculations</h3>
+            <h3 data-lang="ja" hidden>順番が大事な計算に対応</h3>
+            <p data-lang="en">Add percentage, fixed amount, discount, shipping, and currency conversion steps in the order you actually need.</p>
+            <p data-lang="ja" hidden>パーセント、固定金額、割引、送料、通貨換算を、実際に必要な順番で追加できます。</p>
+          </div>
+          <div class="feature">
+            <h3 data-lang="en">Manual exchange rates</h3>
+            <h3 data-lang="ja" hidden>為替レートは手入力</h3>
+            <p data-lang="en">Perchain does not fetch live rates. Enter the rate you want to use, such as a card rate, shop rate, or your own estimate.</p>
+            <p data-lang="ja" hidden>Perchain はライブ為替レートを自動取得しません。カード会社のレート、店頭レート、自分の見積もりなど、使いたいレートを入力します。</p>
+          </div>
+          <div class="feature">
+            <h3 data-lang="en">Templates for repeated chains</h3>
+            <h3 data-lang="ja" hidden>よく使う計算はテンプレート化</h3>
+            <p data-lang="en">Save a repeated tax, fee, shipping, or FX chain and reuse it later without rebuilding the calculation from scratch.</p>
+            <p data-lang="ja" hidden>よく使う税、手数料、送料、為替の組み合わせはテンプレートとして保存し、次回すぐに再利用できます。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" data-panel>
+        <div class="section__intro">
+          <span class="section__kicker">Use cases</span>
+          <h2 class="section__title" data-lang="en">For shopping, travel, selling, and small pricing decisions.</h2>
+          <h2 class="section__title" data-lang="ja" hidden>買い物、旅行、販売、小さな価格判断に。</h2>
+        </div>
+        <div class="workflow-band">
+          <div class="workflow-step">
+            <span class="workflow-step__index">01</span>
+            <span class="workflow-step__label" data-lang="en">Travel</span>
+            <span class="workflow-step__label" data-lang="ja" hidden>旅行</span>
+            <p data-lang="en">Convert a foreign purchase after tax, card fees, and delivery costs.</p>
+            <p data-lang="ja" hidden>海外での購入額に税、カード手数料、配送費を足して自国通貨で確認します。</p>
+          </div>
+          <div class="workflow-step">
+            <span class="workflow-step__index">02</span>
+            <span class="workflow-step__label" data-lang="en">Online shopping</span>
+            <span class="workflow-step__label" data-lang="ja" hidden>海外通販</span>
+            <p data-lang="en">Estimate import costs by chaining item price, discounts, shipping, tax, and exchange rates.</p>
+            <p data-lang="ja" hidden>商品価格、割引、送料、税、為替レートをつなげて輸入時の目安を出します。</p>
+          </div>
+          <div class="workflow-step">
+            <span class="workflow-step__index">03</span>
+            <span class="workflow-step__label" data-lang="en">Selling</span>
+            <span class="workflow-step__label" data-lang="ja" hidden>販売</span>
+            <p data-lang="en">Check payout after marketplace fees, payment fees, shipping, and discounts.</p>
+            <p data-lang="ja" hidden>販売手数料、決済手数料、送料、割引を引いた後の受け取り額を確認します。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--split">
+        <div class="section__intro" data-panel>
+          <span class="section__kicker">Scope</span>
+          <h2 class="section__title" data-lang="en">A transparent calculation tool, not advice.</h2>
+          <h2 class="section__title" data-lang="ja" hidden>助言ではなく、見える計算ツール。</h2>
+          <p class="section__lead" data-lang="en">Perchain is for manual estimates and personal calculations. It does not provide financial, investment, accounting, tax, or exchange-rate advice.</p>
+          <p class="section__lead" data-lang="ja" hidden>Perchain は手入力による見積もりと個人の計算のためのツールです。金融、投資、会計、税務、為替に関する助言は提供しません。</p>
+        </div>
+        <div class="detail-grid" data-panel>
+          <div class="detail-note">
+            <strong data-lang="en">Local first</strong>
+            <strong data-lang="ja" hidden>ローカル中心</strong>
+            <p data-lang="en">Calculation templates and history are stored on your device for the app features that need them.</p>
+            <p data-lang="ja" hidden>計算テンプレートと履歴は、必要な機能のために端末内に保存されます。</p>
+          </div>
+          <div class="detail-note">
+            <strong data-lang="en">Editable by design</strong>
+            <strong data-lang="ja" hidden>いつでも調整できる設計</strong>
+            <p data-lang="en">Rates and steps are visible and editable, so you can change assumptions without rebuilding the whole calculation.</p>
+            <p data-lang="ja" hidden>レートとステップは見える形で編集できるため、前提を変えても計算全体を作り直す必要がありません。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" data-panel>
+        <div class="cta-strip">
+          <div class="cta-strip__copy">
+            <strong data-lang="en">Need support or privacy details?</strong>
+            <strong data-lang="ja" hidden>サポート情報とプライバシー方針はこちらです。</strong>
+            <span data-lang="en">These pages are kept separate so they can be linked directly from the App Store.</span>
+            <span data-lang="ja" hidden>App Store から直接リンクできるよう、サポートとプライバシー方針を独立したページにしています。</span>
+          </div>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="/support/">Support</a>
+            <a class="btn btn--secondary" href="/privacy/">Privacy</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Perchain</span>
+      <div class="footer__links">
+        <a href="/support/">Support</a>
+        <a href="/privacy/">Privacy</a>
+      </div>
+    </footer>
+  </div>
+  <script src="/app.js"></script>
+</body>
+</html>
